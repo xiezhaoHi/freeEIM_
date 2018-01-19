@@ -1,0 +1,143 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EIM02 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/EIM02.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EIM02.rc"" 
+Creating temporary file "C:\DOCUME~1\SAM~1.GTL\LOCALS~1\Temp\RSP1DE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/EIM02.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EIM02.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EIM02Dlg.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EIM_ViewHistory.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EIMChatingWaiter.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\EM_FileReceiving.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\EM_FileSendingDlg.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\EM_GroupInfo.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EM_MsgDlg.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EM_RecvChat.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EM_SendChat.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\EM_UserInfo.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\EM_UserLogin.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\EM_UserProperty.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\EM_UserTree.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\EMRichEdit.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\freeeim_config.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\freeeim_history.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\freeeim_message_logic.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\freeeim_package.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\freeeim_user_logic.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\thirdpartclass\GetHardSoftInfo.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\ImageDataObject.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\thirdpartclass\INI.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\MSGReceiver.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\thirdpartclass\PictureEx.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\em\stdemdef.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\thirdpartclass\SystemTray.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\UserSettingDlg.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\WaveIn.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\WaveOut.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\webbrowser2.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\thirdpartclass\WinAppEx.cpp"
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\XEIM_Database.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAM~1.GTL\LOCALS~1\Temp\RSP1DE.tmp" 
+Creating temporary file "C:\DOCUME~1\SAM~1.GTL\LOCALS~1\Temp\RSP1DF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/EIM02.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\sam.GTL_XP002\My Documents\My Pictures\wf\freeeim\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SAM~1.GTL\LOCALS~1\Temp\RSP1DF.tmp" 
+Creating temporary file "C:\DOCUME~1\SAM~1.GTL\LOCALS~1\Temp\RSP1E0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/freeeim.pdb" /machine:I386 /out:"Release/freeeim.exe" 
+".\Release\EIM02.obj"
+".\Release\EIM02Dlg.obj"
+".\Release\EIM_ViewHistory.obj"
+".\Release\EIMChatingWaiter.obj"
+".\Release\EM_FileReceiving.obj"
+".\Release\EM_FileSendingDlg.obj"
+".\Release\EM_GroupInfo.obj"
+".\Release\EM_MsgDlg.obj"
+".\Release\EM_RecvChat.obj"
+".\Release\EM_SendChat.obj"
+".\Release\EM_UserInfo.obj"
+".\Release\EM_UserLogin.obj"
+".\Release\EM_UserProperty.obj"
+".\Release\EM_UserTree.obj"
+".\Release\EMRichEdit.obj"
+".\Release\freeeim_config.obj"
+".\Release\freeeim_history.obj"
+".\Release\freeeim_message_logic.obj"
+".\Release\freeeim_package.obj"
+".\Release\freeeim_user_logic.obj"
+".\Release\GetHardSoftInfo.obj"
+".\Release\ImageDataObject.obj"
+".\Release\INI.obj"
+".\Release\MSGReceiver.obj"
+".\Release\PictureEx.obj"
+".\Release\StdAfx.obj"
+".\Release\stdemdef.obj"
+".\Release\SystemTray.obj"
+".\Release\UserSettingDlg.obj"
+".\Release\WaveIn.obj"
+".\Release\WaveOut.obj"
+".\Release\webbrowser2.obj"
+".\Release\WinAppEx.obj"
+".\Release\XEIM_Database.obj"
+".\Release\EIM02.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\SAM~1.GTL\LOCALS~1\Temp\RSP1E0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+EIM02.cpp
+EIM02Dlg.cpp
+EIM_ViewHistory.cpp
+EIMChatingWaiter.cpp
+EM_FileReceiving.cpp
+EM_FileSendingDlg.cpp
+EM_GroupInfo.cpp
+EM_MsgDlg.cpp
+EM_RecvChat.cpp
+EM_SendChat.cpp
+EM_UserInfo.cpp
+EM_UserLogin.cpp
+EM_UserProperty.cpp
+EM_UserTree.cpp
+EMRichEdit.cpp
+freeeim_config.cpp
+freeeim_history.cpp
+freeeim_message_logic.cpp
+freeeim_package.cpp
+freeeim_user_logic.cpp
+Generating Code...
+Compiling...
+GetHardSoftInfo.cpp
+ImageDataObject.cpp
+INI.cpp
+MSGReceiver.cpp
+PictureEx.cpp
+stdemdef.cpp
+SystemTray.cpp
+UserSettingDlg.cpp
+WaveIn.cpp
+WaveOut.cpp
+webbrowser2.cpp
+WinAppEx.cpp
+XEIM_Database.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+freeeim.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
